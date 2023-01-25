@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+@media (min-width: 768px) {
+  .sideBarBg {
+    background-image: url("./assets/images/bg-sidebar-desktop.svg") !important;
+    background-size: cover !important;
+  }
+}
+.mobileSideBarBg {
+  background-image: url("./assets/images/bg-sidebar-mobile.svg");
+  background-size: cover;
+}
